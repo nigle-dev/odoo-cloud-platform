@@ -13,7 +13,7 @@
     "category": "Knowledge Management",
     "depends": ["base_attachment_object_storage"],
     "external_dependencies": {
-        "python": ["azure-storage-blob", "azure-identity", "pyopenssl==22.0.0"],
+        "python": ["azure-storage-blob", "azure-identity", "pyopenssl==22.0.0", "redis==2.10.5", "python-json-logger==0.1.5", "statsd==3.2.1", "boto==2.42.0", "python-swiftclient==3.4.0", "python-keystoneclient==3.13.0"],
     },
     "website": "https://github.com/camptocamp/odoo-cloud-platform",
     "installable": True,
